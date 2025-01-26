@@ -4,9 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Listings</title>
+    <style>
+    	.center {
+        	display: flex;
+            justify-content: center;
+            align-items: center;
+
+           }
+    </style>
 </head>
 <body>
-    <img src="https://i.makeagif.com/media/1-26-2025/F7c453.gif">
+	<div class="center">
+    	<img src="https://i.makeagif.com/media/1-26-2025/F7c453.gif">
+    </div>
+    
     <h1>This Month's Events in Las Vegas</h1>
     {% for date in sorted_dates %}
     <h2>{{ date }}</h2>
