@@ -68,6 +68,13 @@ def safe_convert_to_int(date_part):
     except ValueError:
         print(f"Skipping invalid date part: {date_part}")
         return 0
+    
+# def start_ngrok():
+#     from pyngrok import ngrok
+#     url = ngrok.connect(5000)
+#     print('Tunnel URL: ', url)
+    
+
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
